@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altas", "Alta_producto\Altas.csproj", "{4C8F5EE5-65FE-4E9C-8A39-EEB9EA3C1721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clases", "Clases\Clases.csproj", "{CDC859BF-965B-4E60-A8CD-3C268776D6E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C8F5EE5-65FE-4E9C-8A39-EEB9EA3C1721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8F5EE5-65FE-4E9C-8A39-EEB9EA3C1721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8F5EE5-65FE-4E9C-8A39-EEB9EA3C1721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8F5EE5-65FE-4E9C-8A39-EEB9EA3C1721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC859BF-965B-4E60-A8CD-3C268776D6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC859BF-965B-4E60-A8CD-3C268776D6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC859BF-965B-4E60-A8CD-3C268776D6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC859BF-965B-4E60-A8CD-3C268776D6E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A90D4C2-72E4-4E6F-9CBA-22D26EF7E9E1}
+	EndGlobalSection
+EndGlobal
