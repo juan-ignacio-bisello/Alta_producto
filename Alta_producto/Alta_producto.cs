@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Clases;
-using System.Runtime.InteropServices;
+using System.Runtime.InteropServices;   //to free move the form in the screen
 
 namespace Alta_producto
 {
@@ -42,7 +42,7 @@ namespace Alta_producto
 
         private void txtboxNombre_Enter(object sender, EventArgs e)
         {
-            if (txtboxNombre.Text == "Nombre:")
+            if (txtboxNombre.Text == "Nombre:")     //to clean the default text of the form
             {
                 txtboxNombre.Text = "";
                 txtboxNombre.ForeColor = Color.White;
@@ -51,7 +51,7 @@ namespace Alta_producto
 
         private void txtboxNombre_Leave(object sender, EventArgs e)
         {
-            if (txtboxNombre.Text == "")
+            if (txtboxNombre.Text == "")        //to put the default text of the form if it is empty
             {
                 txtboxNombre.Text = "Nombre:";
                 txtboxNombre.ForeColor = Color.White;
@@ -151,6 +151,7 @@ namespace Alta_producto
 
         private void Alta_producto_MouseDown(object sender, MouseEventArgs e)
         {
+            //to free move the form in the screen
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
@@ -163,6 +164,7 @@ namespace Alta_producto
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //to minimize the form
             this.WindowState = FormWindowState.Minimized;
         }
 
