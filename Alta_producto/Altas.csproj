@@ -85,5 +85,9 @@
       <Name>Clases</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="IMAGEN\WhatsApp Image 2022-09-25 at 4.49.26 PM.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
